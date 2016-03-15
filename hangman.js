@@ -31,7 +31,8 @@
   }
 
   function drawPart(type, partIndex) {
-    return type === 1 ? drawLine.apply(drawLine, map[partIndex]) : drawCircle.apply(map[partIndex]);
+    var fn = type === 1 ? drawLine : drawCircle;
+    fn.apply(fn, map[partIndex]);
   }
 
   function drawHangman(part) {
