@@ -1,5 +1,5 @@
 "# hangman" 
-
+Simple Implementation of Hangman
 ![ScreenShot](https://github.com/wangx6/hangman/blob/master/screenshot.jpg?raw=true)
 
 Link:
